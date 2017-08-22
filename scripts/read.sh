@@ -1,7 +1,7 @@
 #!/bin/bash
 good="$RETRO_PATH/good.txt"
 bad="$RETRO_PATH/bad.txt"
-confusing="$RETRO_PATH/confusing.txt"
+confused="$RETRO_PATH/confused.txt"
 if [ -e $good ]; then
   echo "====GOOD===="
   tail -10 $good
@@ -12,7 +12,7 @@ if [ -e $bad ]; then
   tail -10 $bad
 fi
 
-if [ -e $confusing ]; then
-  echo "====CONFUSING===="
-  tail -10 $confusing
+if [ -e $confused ]; then
+  echo "====CONFUSED===="
+  tail -10 $confused
 fi
