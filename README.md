@@ -11,8 +11,8 @@ No more. A set of simple command line commands which will help you maintaining y
 2) Add the below lines in your bash profile, save and restart the terminal
 
 ```
-export RETRO_PATH="Documents/workspace/retro"
-alias retro="bash ./$RETRO_PATH/scripts/retro.sh"
+export RETRO_PATH="<PATH_TO_RETRO>"
+alias retro="source $RETRO_PATH/scripts/retro.sh"
 ```
 
 Please make sure to update the RETRO PATH to reflect your local path where you cloned the repo
